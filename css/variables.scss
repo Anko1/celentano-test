@@ -1,0 +1,38 @@
+@for $i from 1 through 6 {
+  h#{$i} {
+    margin: 0;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icon1::before {
+  content: url("../images/basilico.png");
+}
+
+.icon2::before {
+  content: url("../images/pepe.png");
+}
+
+.icon3::before {
+  content: url("../images/pomodoro.png");
+}
+
+.icon4::before {
+  content: url("../images/pesce.png");
+}
+
+.icon5::before {
+  content: url("../images/fragole.png");
+}
+
+
+.a-hide{opacity: 0;}
+.a-show{opacity: 1;}
